@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+body {
+  font-family: "Muli", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+  font-size: 20px;
+  padding: 70px;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  text-align: center;
+}
+
+.title {
+  flex: 3
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.head-section {
+  flex: 1
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  background: #3b5998;
+  color: white;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+.wrapper {
+  flex: 1;
+  margin: 2px;
+  padding: 10px 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+  border: 1px solid #000;
+}
+.wrapper2 {
+  flex: 1;
+  margin: 2px;
+  padding: 10px 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+  border: 1px solid #000;
+} 
+.box {
+  padding: 10px;
+  margin: 10px;
+}
+#box1 {
+  background: rgb(133, 58, 58);
+}
+#box2 {
+  background: rgb(177, 58, 123);
+}
+#box3 {
+  background: rgb(98, 54, 155);
+}
+#box4 {
+  background: rgb(177, 58, 123);
+  text-align: center;
+}
+
+#video{
+  background: rgb(170, 94, 151);
+  text-align: center;
+}
+.nav-links {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.social {
+  display: block;
+  text-align: center;
+}
+.selected {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#footer
+{
+width:100%;
+text-align:center
+}
+
